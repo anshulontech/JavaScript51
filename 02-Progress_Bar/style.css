@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f7fb;
+}
+
+.container {
+    display: flex;
+    padding: 250px 500px 0px 497px;
+}
+
+.box {
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.nav {
+    position: relative;
+    max-width: fit-content;
+    margin: 0px auto;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 0;
+    appearance: button;
+    margin: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: azure;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.circle.active {
+    border: 6px solid #3498db;
+}
+
+.line.active {
+    border: 2px solid #3498db;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid #e0e0e0;
+    padding: 4px;
+    /* margin: 0px; */
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    transition: 0.6s ease;
+}
+
+.line {
+    min-width: 73px;
+    margin: 20px 0px;
+    min-height: 0px;
+    max-height: 0px;
+    padding: 0px;
+    border: 2px solid #e0e0e0;
+    transition: 0.6s ease;
+}
+
+.btn.disabled {
+    cursor: not-allowed;
+    background-color: #e0e0e0;
+}
+
+.btn.disabled:focus {
+    outline: 0;
+    transform: scale(1);
+}
