@@ -7,3 +7,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 02 :- [**Progress Bar**](02-Progress_Bar)
  - Day 03 :- [**Rotating Navigation**](03-Rotating_Navigation)
  - Day 04 :- [**Hidden Search Widget**](04-Hidden_Search)
+ - Day 05 :- [**Blurry Loading**](05-Blurry_Loading)
