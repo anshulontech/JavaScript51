@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 237, 155);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.box {
+    font-size: 30px;
+    font-style: bold italic;
+    background-color: rgb(105, 81, 241);
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(400%);
+    transition: all 0.5s ease-in-out;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.active {
+    transform: translateX(0);
+}
