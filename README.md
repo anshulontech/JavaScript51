@@ -10,3 +10,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 05 :- [**Blurry Loading**](05-Blurry_Loading)
  - Day 06 :- [**Scroll Animation**](06-Scroll_Animation)
  - Day 07 :- [**Split Landing Page**](07-Split_Landing_Page)
+ - Day 08 :- [**Form Input Wave**](08-Form_Input_Wave)
