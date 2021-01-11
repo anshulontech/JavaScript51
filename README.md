@@ -13,3 +13,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 08 :- [**Form Input Wave**](08-Form_Input_Wave)
  - Day 09 :- [**Purple Heart Rain**](09-Purple_Heart_Rain)
  - Day 10 :- [**Dad Jokes**](10-Dad_Jokes)
+ - Day 11 :- [**Event KeyCode**](11-Event_KeyCodes)
