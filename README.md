@@ -18,3 +18,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 13 :- [**Random Choice Picker**](13-Random_Choice_Picker)
  - Day 14 :- [**Animated Navigation**](14-Animated_Navigation)
  - Day 15 :- [**Increment Counter**](15-Increment_Counter)
+ - Day 16 :- [**Drink Water**](16-Drink_Water)
