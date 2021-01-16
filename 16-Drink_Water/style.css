@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(48, 146, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    color: white;
+}
+
+h1,
+h3 {
+    margin: 5px;
+}
+
+.glass {
+    margin: 15px;
+    height: 350px;
+    width: 150px;
+    border: 5px solid rgb(22, 20, 126);
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(33, 31, 133);
+    overflow: hidden;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.remained {
+    font-size: 20px;
+    height: 350px;
+    width: 150px;
+    visibility: visible;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+
+.remained span {
+    display: block;
+    text-align: center;
+}
+
+.percantage {
+    font-size: 30px;
+    height: 0px;
+    width: 150px;
+    visibility: hidden;
+    background-color: rgb(70, 170, 201);
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.text {
+    margin: 20px 0 0 0;
+    font-size: 25px;
+}
+
+.sub-glass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.mini-glass {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    overflow: hidden;
+    border: 5px solid rgb(33, 31, 133);
+    color: rgb(33, 31, 133);
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.mini-glass.active {
+    background-color: rgb(70, 170, 201);
+    color: white;
+}
+
+#liters {
+    font-weight: bold;
+}
