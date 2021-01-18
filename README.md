@@ -20,3 +20,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 15 :- [**Increment Counter**](15-Increment_Counter)
  - Day 16 :- [**Drink Water**](16-Drink_Water)
  - Day 17 :- [**Movie App**](17-Movie_App)
+ - Day 18 :- [**Background Slider**](18-Background_Slider)
