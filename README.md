@@ -23,4 +23,5 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 18 :- [**Background Slider**](18-Background_Slider)
  - Day 19 :- [**Theme Clock**](19-Theme_Clock)
  - Day 20 :- [**20-Button_Ripple_Effect**](20-Button_Ripple_Effect)
- - Day 25 :- [**Drag And Drop**](21-Drag_And_Drop)
+ - Day 21 :- [**Drag And Drop**](21-Drag_And_Drop)
+ - Day 22 :- [**Drawing App**](22-Drawing_App)
