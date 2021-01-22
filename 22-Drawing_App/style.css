@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: peachpuff;
+}
+
+canvas {
+    border: 2px solid rgb(247, 77, 77);
+    margin: 5px;
+    background-color: white;
+}
+
+.toolbox {
+    background-color: rgb(68, 92, 230);
+    border: none;
+    display: flex;
+    width: 554px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.toolbox>* {
+    background-color: white;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 50px;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+.toolbox>*:last-child {
+    margin-left: auto;
+    width: 75px;
+}
+
+button {
+    transition: all 0.2s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input:focus {
+    outline: none;
+}
+
+button,
+input,
+span {
+    border-radius: 5px;
+}
