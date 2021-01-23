@@ -1,0 +1,1 @@
+console.log("No JavaScript is Used./nCan be done with keyframes");
