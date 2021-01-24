@@ -26,3 +26,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 21 :- [**Drag And Drop**](21-Drag_And_Drop)
  - Day 22 :- [**Drawing App**](22-Drawing_App)
  - Day 23 :- [**Kinetic Loader**](23-Loader)
+ - Day 24 :- [**Content Placeholder**](24-Content_Placeholder)
