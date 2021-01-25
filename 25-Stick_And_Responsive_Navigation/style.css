@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    transition: all 0.5s ease-in-out;
+}
+
+.navdiv {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar.active {
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.navdiv.active {
+    padding: 0;
+}
+
+.list.active li a {
+    color: grey;
+}
+
+.title.active a {
+    color: black;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list li {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+.title a {
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.list li a {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+
+.title a,
+.list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container1 {
+    background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    z-index: -2;
+    color: white;
+}
+
+.container1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.top_heading {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.para_top {
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 65vw;
+    font-size: 25px;
+    text-align: center;
+}
+
+.list .red a {
+    color: crimson;
+}
+
+.list.active .red a {
+    color: crimson;
+}
+
+.title a:hover,
+.list a:hover {
+    color: crimson;
+}
+
+.bottom {
+    margin: 0 55px;
+    padding: 15px;
+}
+
+.bott_heading {
+    font-size: 30px;
+    color: rgb(49, 46, 46);
+    text-align: center;
+}
+
+.para_bott {
+    font-family: 'Source Code Pro', monospace;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
