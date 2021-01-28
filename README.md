@@ -30,3 +30,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 25 :- [**Stick_Navigation**](25-Stick_Navigation)
  - Day 26 :- [**Vertical Slider**](26-Vertical_Slider)
  - Day 27 :- [**Toast Notification**](27-Toast_Notification)
+ - Day 28 :- [**Github Profiles**](28-Github_Profiles)
