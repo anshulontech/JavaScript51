@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightcoral;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.content {
+    max-width: 75vw;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.speed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: rgba(145, 126, 126, 0.541);
+    font-size: 30px;
+}
+
+#speed {
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 5px;
+}
+
+#speed:focus {
+    outline: none;
+}
