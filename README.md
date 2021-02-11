@@ -34,3 +34,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 29 :- [**Double Click Heart**](29-Double_Click_Heart)
  - Day 30 :- [**Auto Text Effect**](30-Auto_Text_Effect)
  - Day 31 :- [**Random Password Generator**](31-Random_Password_Generator)
+ - Day 32 :- [**Good, Cheap, Fast**](32-Good,Cheap,Fast)
