@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.counter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.nums {
+    align-items: center;
+}
+
+.nums span {
+    font-size: 55px;
+    color: blue;
+    position: absolute;
+    top: -50%;
+    transform: translate(-50%, -50%) rotate(120deg) scale(0);
+    opacity: 0;
+    transform-origin: bottom center;
+}
+
+h3 {
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+.nums span.inNums {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    opacity: 1;
+    animation: numsIn 0.5s ease-in-out;
+}
+
+@keyframes numsIn {
+    0% {
+        transform: translate(-50%, -50%) rotate(120deg) scale(0);
+        opacity: 0;
+    }
+    40% {
+        transform: translate(-50%, -50%) rotate(60deg) scale(1);
+        opacity: 0.4;
+    }
+    80% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+        opacity: 0.8;
+    }
+    85% {
+        transform: translate(-50%, -50%) rotate(-25deg) scale(1);
+        opacity: 0.85;
+    }
+    95% {
+        transform: translate(-50%, -50%) rotate(5deg) scale(1);
+        opacity: 0.95;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+.outNums {
+    transform: translate(-50%, -50%) rotate(120deg) scale(0);
+    opacity: 0;
+    animation: numsOut 0.5s ease-in;
+}
+
+@keyframes numsOut {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    5% {
+        transform: translate(-50%, -50%) rotate(5deg) scale(1);
+        opacity: 0.95;
+    }
+    15% {
+        transform: translate(-50%, -50%) rotate(-15deg) scale(1);
+        opacity: 0.85;
+    }
+    20% {
+        transform: translate(-50%, -50%) rotate(-30deg) scale(1);
+        opacity: 0.8;
+    }
+    60% {
+        transform: translate(-50%, -50%) rotate(-60deg) scale(1);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(-120deg) scale(1);
+        opacity: 0;
+    }
+}
+
+.final {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+button:active {
+    outline: none;
+    transform: scale(0.95);
+}
+
+button:hover {
+    background-color: rgb(199, 196, 196);
+}
+
+.removed {
+    opacity: 0;
+}
