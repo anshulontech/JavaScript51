@@ -37,3 +37,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 32 :- [**Good, Cheap, Fast**](32-Good,Cheap,Fast)
  - Day 33 :- [**Notes App**](33-Notes_App)
  - Day 34 :- [**Animated Countdown**](34-Animated_CountDown)
+ - Day 35 :- [**Image Carousel**](35-Image_Carousel)
