@@ -41,3 +41,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 36 :- [**Hoverboard**](36-HoverBoard)
  - Day 37 :- [**Pokedex**](37-Pokedex)
  - Day 38 :- [**Mobile Navigation**](38-Mobile_Navigation)
+ - Day 39 :- [**Password Strength Background**](39-Password_Strength_Background)
