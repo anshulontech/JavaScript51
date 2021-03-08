@@ -43,3 +43,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 38 :- [**Mobile Navigation**](38-Mobile_Navigation)
  - Day 39 :- [**Password Strength Background**](39-Password_Strength_Background)
  - Day 40 :- [**3D Boxes Background**](40-3D_Boxes_Background)
+ - Day 41 :- [**Verify Account**](41-Verify_Account)
