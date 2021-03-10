@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.subtitle {
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.header {
+    background-color: #3e57db;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.header input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.header input:focus {
+    outline: none;
+}
+
+.user-list {
+    background-color: white;
+    list-style-type: none;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.user-list li {
+    display: flex;
+    padding: 20px;
+}
+
+.user-list img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.user-list .user-info {
+    margin-left: 10px;
+}
+
+.user-list .user-info h4 {
+    margin-left: 0 0 10px;
+}
+
+.user-list .user-info p {
+    font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+    display: none;
+}
