@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-color: rgb(230, 211, 195);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width:400px;
+    /* border: 2px solid red; */
+    padding: 15px;
+    background-color: rgb(238, 234, 234);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.container h3 {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    padding: 5px 0;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    max-width: 400px;
+    text-align: center;
+    padding: 5px;
+    margin: 14px 0;
+}
+
+.options .choice {
+    /* border: 2px solid purple; */
+    padding: 20px 25px; 
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.options .choice img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.options .choice.active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.fas.fa-heart {
+    color: red;
+    font-size: 30px;
+    margin: 15px 0 0 0;
+}
+
+.greeting,
+.feedback {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+.feedbackPromise {
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+}
