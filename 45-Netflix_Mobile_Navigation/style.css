@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.open-btn {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  /* transform: translateX(-100%); */
+}
+
+.slider {
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+.slider.visible {
+  transform: translateX(0);
+}
+
+ul {
+  list-style-type: none;
+}
+.logo {
+    width: 200px;
+}
+
+.slider .logo {
+  width: 150px;
+}
+
+
+.nav-black {
+  width: 500px;
+  background-color: black;
+  border: none;
+  transition-delay: 0.4s;
+}
+
+.nav-black.visible {
+  transition-delay: 0s;
+}
+
+.nav-red {
+  width: 90%;
+  background-color: red;
+  height: 100%;
+  border: none;
+  transition-delay: 0.2s;
+}
+
+.nav-red.visible {
+  transition-delay: 0.2s;
+}
+
+.nav-main {
+  height: 100%;
+  width: 90%;
+  padding: 50px 35px;
+  background-color: white;
+  margin: 0;
+  border: none;
+  transition-delay: 0s;
+}
+
+.nav-main.visible {
+  transition-delay: 0.4s;
+}
+
+.nav-main button.close-btn {
+  position: relative;
+  right: -150px;
+  color: grey;
+  top: -30px;
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(97, 91, 91);
+}
+
+li {
+  margin: 10px 0;
+}
+
+.list {
+  padding: 0;
+}
+
+.nav-btn:active {
+  transform: scale(0.95);
+}
+
+p {
+    font-size: 23px;
+}
