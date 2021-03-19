@@ -47,3 +47,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 42 :- [**Live User Filter**](42-Live_User_Filter)
  - Day 43 :- [**Let Us Know Your FeedBack**](43-FeedBack_UI_Design)
  - Day 44 :- [**Custom Range Slider**](44-Custom_Range_Slider)
+ - Day 45 :- [**Netflix Mobile Navigation**](45-Netflix_Mobile_Navigation)
