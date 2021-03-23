@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -30,18 +33,22 @@ ul li {
 }
 
 .selection {
-  padding: 40px 0;
+  margin: 40px 25px;
   width: 600px;
 }
 
-.selection .question h2 {
+.selection h2 {
   text-align: center;
   font-size: 25px;
   letter-spacing: 1.5px;
+  padding: 0 15px;
+  font-family: 'Rokkitt', serif;
 }
+
 .option ul li {
-  padding: 10px;
+  padding: 10px 0;
   font-size: 1.3rem;
+  font-family: 'Rokkitt', serif;
 }
 
 .option ul li label {
@@ -58,6 +65,7 @@ ul li {
   background-color: blueviolet;
   cursor: pointer;
   letter-spacing: 2px;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .quizContainer .submit button:hover {
