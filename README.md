@@ -49,3 +49,4 @@ This is a 51 Days 51 Projects JavaScript challenge. HTML,CSS and JavaScript are 
  - Day 44 :- [**Custom Range Slider**](44-Custom_Range_Slider)
  - Day 45 :- [**Netflix Mobile Navigation**](45-Netflix_Mobile_Navigation)
  - Day 46 :- [**Quiz App**](46-Quiz_App)
+ - Day 47 :- [**Testimonial Box**](47-Testimonial_Box_Switcher)
