@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.container img {
+    object-fit: cover;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
