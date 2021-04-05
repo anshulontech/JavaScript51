@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Insect Catch Game...</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="screen" id="startScreen">
+            <h1 class="startHeading">Catch The Insect</h1>
+            <button class="btn startButton" id="start">Play Game</button>
+        </div>
+
+        <div class="screen" id="choiceScreen">
+            <h1 class="choiceHeading">Which is the most Annoying Insect?</h1>
+            <ul class="list">
+                <li>
+                    <button class="choiceButton" id="choice1">
+                        <p>Fly</p>
+                        <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="Fly">
+                    </button>
+                </li>
+                <li>
+                    <button class="choiceButton" id="choice2">
+                        <p>Mosquito</p>
+                        <img src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png" alt="Mosquito">
+                    </button>
+                </li>
+                <li>
+                    <button class="choiceButton" id="choice3">
+                        <p>Spider</p>
+                        <img src="http://pngimg.com/uploads/spider/spider_PNG12.png" alt="Spider">
+                    </button>
+                </li>
+                <li>
+                    <button class="choiceButton" id="choice4">
+                        <p>Roach</p>
+                        <img src="http://pngimg.com/uploads/roach/roach_PNG12163.png" alt="roach">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="screen game-container" id="game-container">
+            <h3 id="time" class="time">Time: 00:00</h3>
+            <h3 id="score" class="score">Score: 0</h3>
+            <h5 id="quit" class="quit">
+                Are you annnoyed yet?
+                <br>
+                You are playing an impossible game!!
+            </h5>
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
