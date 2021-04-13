@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
 }
 
 body {
@@ -23,6 +27,7 @@ body {
     padding: 20px 40px;
     width: 400px;
     border-radius: 7px;
+    box-shadow: 0px 0px 2px 4px rgb(83, 81, 81);
 }
 
 .heading {
@@ -56,6 +61,7 @@ button {
 
 label,input,small {
     padding: 2px 0 0 0;
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 label {
